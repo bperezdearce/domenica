@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Migra-Extrabold";
+	src: url("../../assets/Migra-Extrabold.ttf") format("truetype");
+} 
+@font-face {
+    font-family: "Migra-ExtraboldItalic";
+    src: url("../../assets/MigraItalic-ExtraboldItalic.ttf") format("truetype");
+}
+
+.mainContainer {
+    text-align: center;
+    color: #DDEBD0;
+}
+
+.mainImg {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 0;
+        opacity: 1;  
+    }
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    gap: 0.5em;
+    top: 53%;
+    left: 3%;
+        div {
+            margin: 0.6em 0;
+            font-family: "Migra-ExtraBoldItalic";
+            font-size: 4em;
+            letter-spacing: 3px;
+        }
+}
